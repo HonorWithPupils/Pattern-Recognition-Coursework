@@ -54,6 +54,7 @@ def PRcurve(y_prob, y_true, plot=False):
     thresholds = np.array(thresholds)
     
     if plot:
+        fig = plt.figure()
         plt.xlabel('Recall')
         plt.ylabel('Precision')
         plt.plot(recalls, precisions)
@@ -118,6 +119,7 @@ def ROCcurve(y_prob, y_true, plot=False):
     thresholds = np.array(thresholds)
     
     if plot:
+        fig = plt.figure()
         plt.xlabel('FPR')
         plt.ylabel('TRP')
         plt.plot(FPR, TRP)
