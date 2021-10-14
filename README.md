@@ -8,4 +8,4 @@
 
 这里推荐网址 <https://nbviewer.org/>
 
-输入网址即可在线游览 .ipynb 文件
+输入网址（例：https://github.com/HonorWithPupils/PatternRecognitionCoursework/blob/main/NaiveBayes.ipynb ），即可在线游览 .ipynb 文件
