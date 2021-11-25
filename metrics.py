@@ -1,7 +1,16 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-def singleMetics(P, T):
+def singleMetics(P:np.ndarray , T:np.ndarray) -> dict[str,float]:
+    """一系列单个变量的指标
+
+    Args:
+        P (ndarray): 预测值 1*N (N 为样本数量)
+        T (ndarray): 实际值 1*N
+
+    Returns:
+        dict: 一个字典，包含一系列指标
+    """
     TP = ((P==1) & (T==1)).sum()
     FP = ((P==0) & (T==1)).sum()
     FN = ((P==1) & (T==0)).sum()
