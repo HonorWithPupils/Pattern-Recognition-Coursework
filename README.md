@@ -1,4 +1,4 @@
-# PatternRecognitionCoursework
+# Pattern Recognition Coursework
 
 For submitting and sharing Pattern Recognition coursework
 
